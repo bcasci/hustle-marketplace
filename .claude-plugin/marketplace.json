@@ -1,0 +1,13 @@
+{
+  "name": "hustle-marketplace",
+  "owner": {
+    "name": "Brandon Casci"
+  },
+  "plugins": [
+    {
+      "name": "hustle",
+      "source": "./hustle-plugin",
+      "description": "Claude Code plugin for hustling stuff"
+    }
+  ]
+}
