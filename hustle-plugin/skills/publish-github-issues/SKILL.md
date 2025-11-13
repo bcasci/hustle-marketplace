@@ -55,13 +55,15 @@ Read YAML files containing GitHub issue definitions and create them in GitHub us
 2. Parse and validate structure:
 
 **Required fields:**
-   - `repository` (string, format: `owner/repo`)
-   - `issues` (array, at least one issue)
-   - Each issue must have: `ref`, `title`, `body`
+
+- `repository` (string, format: `owner/repo`)
+- `issues` (array, at least one issue)
+- Each issue must have: `ref`, `title`, `body`
 
 **Optional fields:**
-   - Top-level: `project` (integer), `defaults` (object with labels/milestone)
-   - Per-issue: `parent_ref` (string), `milestone` (string), `labels` (array)
+
+- Top-level: `project` (integer), `defaults` (object with labels/milestone)
+- Per-issue: `parent_ref` (string), `milestone` (string), `labels` (array)
 
 3. Exit with error if invalid
 
@@ -235,6 +237,7 @@ YAML file NOT archived. Fix errors and retry.
 **User:** "Publish issues tmp/issues/paddle-trial-20251105.yml"
 
 **Skill:**
+
 ```
 Reading tmp/issues/paddle-trial-20251105.yml...
 ✓ Valid YAML structure
