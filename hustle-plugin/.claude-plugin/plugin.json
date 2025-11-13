@@ -12,7 +12,6 @@
   "license": "MIT",
   "keywords": ["hustle", "productivity"],
   "commands": "./commands/",
-  "agents": "./agents/",
   "skills": "./skills/",
   "hooks": "./hooks/hooks.json",
   "mcpServers": "./mcp-config.json"
